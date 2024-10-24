@@ -8,6 +8,7 @@ body {
     justify-content: center; /* Centra orizzontalmente */
     align-items: flex-start; /* Centra verticalmente */
     background-color: #f4f4f4;
+    padding-top: 20px;
 }
 
 h1 {
