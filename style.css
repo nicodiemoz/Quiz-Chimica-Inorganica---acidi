@@ -6,7 +6,7 @@ body {
     height: 100vh; /* Altezza del viewport per la centratura verticale */
     display: flex;
     justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
+    align-items: flex-start; /* Centra verticalmente */
     background-color: #f4f4f4;
 }
 
