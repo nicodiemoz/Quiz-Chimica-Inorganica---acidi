@@ -16,7 +16,7 @@ h1 {
 button {
     padding: 10px 15px;
     margin-top: 10px;
-    background-color: #4CAF50;
+    background-color: #FFFFBF; /*4CAF50*/
     color: white;
     border: none;
     cursor: pointer;
