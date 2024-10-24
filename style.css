@@ -1,22 +1,29 @@
+/* Aggiungi queste regole per centrare gli elementi */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    height: 100vh; /* Altezza del viewport per la centratura verticale */
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
     background-color: #f4f4f4;
 }
 
 h1 {
     color: #333;
+    text-align: center; /* Centra il titolo */
 }
 
 #quizContainer {
     margin-top: 20px;
+    text-align: center; /* Centra il contenuto del quiz */
 }
 
 button {
     padding: 10px 15px;
     margin-top: 10px;
-    background-color: #4CAF50; /*FFFFBF*/
+    background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
@@ -28,4 +35,12 @@ button:hover {
 
 #quizAnswer {
     font-weight: bold;
+}
+
+/* Aggiungi un contenitore per limitare la larghezza della sezione del quiz */
+.container {
+    width: 80%; /* Imposta una larghezza massima */
+    max-width: 600px; /* Limita la larghezza massima a 600px */
+    margin: auto; /* Centra il contenitore orizzontalmente */
+    text-align: center; /* Centra il contenuto nel container */
 }
