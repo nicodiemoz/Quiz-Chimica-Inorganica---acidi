@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Acidi</title>
+    <link rel="stylesheet" href="style.css"> <!-- Se vuoi aggiungere stile personalizzato -->
+</head>
+<body>
+    <h1>Quiz sugli Acidi</h1>
+    <label for="modalita">Scegli la modalità:</label>
+    <select id="modalita">
+        <option value="formula">Formula</option>
+        <option value="nome">Nome</option>
+    </select>
+    <button id="startQuiz">Inizia Quiz</button>
+
+    <div id="quizContainer" style="display:none;">
+        <p id="quizPrompt"></p>
+        <button id="nextBtn">Vedi Risposta</button>
+        <p id="quizAnswer" style="display:none;"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
